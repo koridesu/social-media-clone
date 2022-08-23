@@ -1,0 +1,116 @@
+.buttonsBody {
+  display: flex;
+  height: 27px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.likeButtonBody {
+  display: flex;
+  height: 30px;
+}
+
+.likeButton {
+  width: 16px;
+  height: 16px;
+  background: transparent url('img/thums-up-purple.svg') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.notLikeButton {
+  width: 16px;
+  height: 16px;
+  background: transparent url('img/thums-up.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.likeCount {
+  width: 8px;
+  height: 16px;
+  text-align: left;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #9b59b6;
+  opacity: 1;
+  margin-left: 5px;
+}
+.notLikeCount {
+  width: 8px;
+  height: 16px;
+  text-align: left;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #c1c8ce;
+  opacity: 1;
+  margin-left: 5px;
+}
+
+.dislikeButton {
+  width: 16px;
+  height: 16px;
+  background: transparent url('img/thumbs-down-red.svg') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.notDislikeButton {
+  width: 16px;
+  height: 16px;
+  background: transparent url('img/thumbs-down.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.notDislikeCount {
+  width: 8px;
+  height: 16px;
+  text-align: left;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #c1c8ce;
+  opacity: 1;
+  margin-left: 5px;
+}
+
+.dislikeCount {
+  width: 8px;
+  height: 16px;
+  text-align: left;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #34495e;
+  opacity: 1;
+  margin-left: 5px;
+}
+
+.funtionalButtonBody {
+  display: flex;
+  height: 30px;
+}
+
+.editButton {
+  width: 14px;
+  height: 14px;
+  background: transparent url('img/edit-button.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.deleteButton {
+  width: 13px;
+  height: 14px;
+  background: transparent url('img/delete-button.svg') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  cursor: pointer;
+  margin-right: 20px;
+}

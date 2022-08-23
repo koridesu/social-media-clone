@@ -1,0 +1,29 @@
+.post {
+  width: 420px;
+  /* height: 118px; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.editingPost {
+  width: 420px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.contentBody {
+  top: 247px;
+  left: 468px;
+  width: 420px;
+  height: 80px;
+  border-bottom: 1px solid #eaecee;
+  opacity: 1;
+  display: flex;
+}

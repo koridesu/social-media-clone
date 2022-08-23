@@ -1,0 +1,197 @@
+.postBody {
+  top: 247px;
+  left: 468px;
+  width: 420px;
+  height: 80px;
+  border-bottom: 1px solid #eaecee;
+  opacity: 1;
+  display: flex;
+  transition: 0.2s ease-in-out;
+}
+
+.profilePicture {
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background: transparent url('img/Ellipse\ 1.png') no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+}
+
+.contentContainer {
+  position: absolute;
+}
+
+.contentDate {
+  top: 20px;
+  left: 70px;
+  height: 9px;
+  text-align: left;
+  font: normal normal normal 8px/9px Roboto;
+  letter-spacing: 0px;
+  color: #99a4ae;
+  opacity: 1;
+  position: relative;
+}
+
+.contentArea {
+  margin: auto;
+  top: 29px;
+  left: 70px;
+  width: 330px;
+  height: 32px;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  position: absolute;
+  /* display: flex;
+  align-items: center;
+  top: 29px;
+  left: 70px;
+  width: 330px;
+  height: 32px;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  position: absolute; */
+}
+
+.contentArea * {
+  display: contents;
+}
+
+.userName {
+  width: fit-content;
+  font: normal normal medium 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #9b59b6;
+  position: relative;
+}
+
+.content {
+  text-align: left;
+  word-break: inherit;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #5d6d7e;
+}
+
+/* ------ */
+
+.editingPostBody {
+  width: 420px;
+  height: 208px;
+  border-bottom: 1px solid #eaecee;
+  opacity: 1;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  transition: 0.2s ease-in-out;
+}
+
+.updateArea {
+  margin: auto;
+  top: 29px;
+  left: 70px;
+  width: 330px;
+  height: 32px;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.textInput {
+  margin: auto;
+  width: 330px;
+  height: 72px;
+  text-align: left;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #34495e;
+  opacity: 1;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.textInput::placeholder {
+  color: #c1c8ce;
+  transition: 0.2ms ease-in-out;
+}
+
+.cancelButton {
+  width: max-content;
+  height: max-content;
+  text-align: left;
+  font: normal normal medium 10px Roboto;
+  font-size: 11px;
+  border: none;
+  letter-spacing: 1px;
+  color: #c1c8ce;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.updateButton {
+  width: 70px;
+  height: 23px;
+  border: none;
+  background: #9b59b6 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  font: normal normal medium 14px/16px Roboto;
+  font-size: 10px;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  transition: 0.2ms;
+  cursor: pointer;
+}
+.updateButton:hover {
+  background-color: #79408f;
+  box-shadow: 0px 3px 6px #8e44ad29;
+}
+
+.addFileButton {
+  width: 8px;
+  height: 16px;
+  background: transparent url('img/Icon\ ionic-ios-attach.svg') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  border: none;
+  outline: none;
+  margin-right: 13.42px;
+}
+
+.emojiButton {
+  width: 16px;
+  height: 16px;
+  background: transparent url('img/Icon\ feather-smile.svg') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  border: none;
+  outline: none;
+}
+
+.emojiButton:hover {
+  background: transparent url('img/smileHover.svg') 0% 0% no-repeat padding-box;
+}
+
+.addFileButton:hover {
+  background: transparent url('img/attachHover.svg') 0% 0% no-repeat padding-box;
+}
