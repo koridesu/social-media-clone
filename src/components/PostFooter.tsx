@@ -81,7 +81,9 @@ function PostFooter(props: PostProps) {
     <div className={classes.buttonsBody}>
       <div className={classes.likeButtonBody}>
         <svg
-          className={isLiked ? classes.likeButton : classes.notLikeButton}
+          className={`${classes.dummy} ${
+            isLiked ? classes.likeButton : classes.notLikeButton
+          }`}
           onClick={handleLike}
         ></svg>
         <div className={isLiked ? classes.likeCount : classes.notLikeCount}>

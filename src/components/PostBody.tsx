@@ -17,7 +17,7 @@ function PostBody(props: PostProps) {
       localStorage.setItem('posts', JSON.stringify(posts));
 
       props.refresher();
-      props.toogleEditing?.call(props.toogleEditing);
+      props.toogleEditing && props.toogleEditing();
     }
   };
 
@@ -63,7 +63,7 @@ function PostBody(props: PostProps) {
     >
       <div className={classes.profilePicture}></div>
       <div className={classes.contentContainer}>
-        <div className={classes.contentDate}>{props.post.date.toString()}</div>
+        <div className={classes.contentDate}>{props.post.date?.toString()}</div>
         <div
           className={props.isEditing ? classes.updateArea : classes.contentArea}
         >

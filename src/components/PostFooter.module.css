@@ -20,6 +20,10 @@
   margin-left: 20px;
 }
 
+.dummy {
+  transition: 0.5s;
+}
+
 .notLikeButton {
   width: 16px;
   height: 16px;

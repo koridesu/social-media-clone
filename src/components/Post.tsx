@@ -13,18 +13,20 @@ function Post(props: PostProps) {
 
   return (
     <div className={isEditing ? classes.editingPost : classes.post}>
-      <PostBody
-        post={props.post}
-        refresher={props.refresher}
-        isEditing={isEditing}
-        toogleEditing={toogleEditing}
-      ></PostBody>
-      <PostFooter
-        post={props.post}
-        refresher={props.refresher}
-        isEditing={isEditing}
-        toogleEditing={toogleEditing}
-      ></PostFooter>
+      <div className={isEditing ? classes.placeHolder : ''}>
+        <PostBody
+          post={props.post}
+          refresher={props.refresher}
+          isEditing={isEditing}
+          toogleEditing={toogleEditing}
+        />
+        <PostFooter
+          post={props.post}
+          refresher={props.refresher}
+          isEditing={isEditing}
+          toogleEditing={toogleEditing}
+        />
+      </div>
     </div>
   );
 }
